@@ -5,6 +5,7 @@ import Projects from './Projects'
 import GuestBook from './GuestBook'
 import Movies from './Movies'
 import Graph from './graph'
+import Courses from './Courses'
 
 export class Body extends Component {
     displayContent = () => {
@@ -13,10 +14,13 @@ export class Body extends Component {
             return<Home/>
         }
         else if(activeTab===2){
-            return<Images/>
+            return<Projects/>
+        }
+        else if(activeTab===3){
+            return<Courses/>
         }
         else if(activeTab===4){
-            return<Projects/>
+            return<Images/>
         }
         else if(activeTab===5){
             return<GuestBook/>

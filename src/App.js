@@ -30,11 +30,15 @@ render() {
     },
     {
       id: 2,
-      title: 'Images',
+      title: 'Projects',
+    },
+    {
+      id: 3,
+      title: 'Course Work',
     },
     {
       id: 4,
-      title: 'Projects',
+      title: 'Images',
     },
     {
       id: 5,

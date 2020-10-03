@@ -47,6 +47,17 @@ img{
   padding:5px;
 }
 
+.tab {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.homepic{
+  height: 40vh   !important;
+  width: auto    !important;
+  padding:5px;
+}
+
 .body-pic > div{
 display:grid;
 grid-template-columns: repeat(auto-fit, minmax(300px,auto));
