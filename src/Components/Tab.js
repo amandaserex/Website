@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 export class Tab extends Component {
     addStyling = () => {
         if(this.props.tab.id === this.props.activeTab){
-            return {backgroundColor:'gray'}
+            return {backgroundColor:'gray', color:'white'}
         }
         else{
-            return {backgroundColor:'lightgray'}
+            return {backgroundColor:'lightgray', color:'black'}
         }
     }
     render() {

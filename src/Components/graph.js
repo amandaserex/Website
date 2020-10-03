@@ -407,7 +407,7 @@ export class Graph extends Component {
 
         const color = (node) => {
             if (node.group == 2) {
-            return d3.color("#f4503a");
+            return d3.color("#01579b");
             }
             else if (node.id=="The Avengers"){
                 return "url(#avengers)"; 
@@ -509,9 +509,12 @@ export class Graph extends Component {
     }
 
     render() {
-        return <div id="mysvg">
-
+        return (
+        <div>
+            <h3>Graph of movies connected by four main actors that play in them. Feel free to move it around! </h3>
+            <div id="mysvg"/>
         </div>
+        );
     }
 }
 export default Graph;

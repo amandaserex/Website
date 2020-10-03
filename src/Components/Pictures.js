@@ -12,7 +12,7 @@ import IMG_5727 from "./picsVideos/IMG_5727.jpeg"
 import IMG_5992 from "./picsVideos/IMG_5992.jpeg"
 import IMG_6060 from "./picsVideos/IMG_6060.jpeg"
 import IMG_6070 from "./picsVideos/IMG_6070.jpeg"
-function MyComponent() {
+function Pictures() {
   return (
     <div className="body-pic">
       <SRLWrapper>
@@ -70,4 +70,4 @@ function MyComponent() {
   );
 }
  
-export default MyComponent;
+export default Pictures;

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MyComponent from "./MyComponent";
+import Pictures from "./Pictures";
 import SimpleReactLightbox from "simple-react-lightbox";
 import ScrollUpButton from "react-scroll-up-button";
 
@@ -21,7 +21,7 @@ export class Images extends Component {
                     TransitionClassName='ScrollUpButton__Toggled'
                 />
                 <SimpleReactLightbox>
-                    <MyComponent />
+                    <Pictures />
                 </SimpleReactLightbox>
             </div>
             </div>

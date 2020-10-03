@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import ScrollUpButton from "react-scroll-up-button";
-import three from "./picsVideos/download.png"
-import two from "./picsVideos/download-1.png"
-import one from "./picsVideos/download-2.png"
+import three from "./picsVideos/MealPlannerIcon.png"
 
 
 export class Projects extends Component {
@@ -16,18 +14,11 @@ export class Projects extends Component {
                     ContainerClassName='ScrollUpButton__Container'
                     TransitionClassName='ScrollUpButton__Toggled'
                 />
-                <h3>  A few of my favorite projects.</h3>
+                <h3> Projects </h3>
                 <div className="individual">
-                <a href="https://cs48-s20-s3-t2-prod.herokuapp.com/"><img src={three} className="pic" alt="" /></a>
-                <a href="https://cs48-s20-s3-t2-prod.herokuapp.com/" >Meal Planner</a>
-                </div>
-                <div className="individual">
-                <a href="https://github.com/amandaserex/cs130a-pa2" ><img src={one} className="pic" alt="" /></a>
-                <a href="https://github.com/amandaserex/cs130a-pa2" >Quash Lab - CS130a</a>
-                </div>
-                <div className="individual">
-                <a href="https://github.com/amandaserex/cs64-lab4" ><img src={two} className="pic" alt="" /></a>
-                <a href="https://github.com/amandaserex/cs64-lab4" >MIPS Usage</a>
+                <a className = "ProjectName" target="_blank" href="https://cs48-s20-s3-t2-prod.herokuapp.com/" >Meal Planner</a>
+                <a href="https://cs48-s20-s3-t2-prod.herokuapp.com/" target="_blank"><img src={three} className="icon" alt="" /></a>
+                <p>This is a planner for your daily week. It includes a week layout that allows you to add your own meals or find them from the API used in the Search For Recipes tab. You can also add ingredients to your shopping list from the planner or manually. I created this website along with three groupmates in my CS48 class during Spring 2019. We used React, Node.js, the Edamame API, and MongoDB. </p>
                 </div>
             </div>
 

@@ -235,7 +235,6 @@ export class Movies extends Component {
                 <option value="movies" >All</option>
                 <option value="wannaWatch" >Wanna Watch</option>
                 <option value="haveWatched" >Have Watched</option>
-                <option value="GraphViz" >GraphViz</option>
                 required
           </select>
             </form>

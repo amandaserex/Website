@@ -23,7 +23,7 @@ export class Home extends Component {
                 }}
                     src={lake} alt="" />
                 <p>
-                    Hi! My name is Amanda Serex and I am a third year Computer Science student at UCSB.
+                    Hi! My name is Amanda Serex and I am a fourth year Computer Science major at UCSB.
                     I love taking on problems and finding unique and efficent ways to solve them. I
                     have been playing sports my whole life so I am a strong team player and spend
                     a lot of time outside. I love to spend time at the beach with friends, going water

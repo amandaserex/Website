@@ -1,3 +1,18 @@
+.body{
+  background-color: #e1f5fe;
+  background-size: cover;
+  margin: 0px;
+  min-height: 100%;
+  width: 100%;
+}
+
+.html{
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: #e1f5fe;
+}
+
 .nav-bar{
   display:flex;
   background-color: lightgray;
@@ -6,26 +21,26 @@
 h4{
   padding:5px
 }
+
 h4:hover {
-  background-color: gray;
-  background: cover;
+  color:white;
  }
 
 .body-home{
   display:flex;
-  background-color: antiquewhite;
-  border: 2px solid black;
+  background-color: #e1f5fe;
   padding: 10px;
 }
 
 .body-home > img{
-  background-color: antiquewhite;
+  background-color: #e1f5fe;
   flex: 1;
   padding: 10px;
   width: 50%    !important;
   height: auto   !important;
   align-items: center;
 }
+
 img{
   width: 90%    !important;
   height: auto   !important;
@@ -34,74 +49,63 @@ img{
 
 .body-pic > div{
 display:grid;
-grid-template-columns: repeat(auto-fit, minmax(200px,auto));
-
+grid-template-columns: repeat(auto-fit, minmax(300px,auto));
 align-items:center;
 justify-content:center;
 padding:10px;
-background-color: antiquewhite;
-border: 2px solid black;
 grid-gap:1rem;
-}
-
-.body-video{
-  padding:10px;
-}
-.vids{ 
-  background-color:antiquewhite;
-  border: 2px solid black;
-  padding:10px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px,auto));
-  grid-gap:1rem;
-  align-items:center;
-  justify-content:space-around;
-}
-
-video {
-  width: 100%    !important;
-  height: auto   !important;
 }
 
 .body-projects{
   display: flex;
   flex-direction: column;
   padding:10px;
+  background-color: #e1f5fe;
+}
+
+.ProjectName{
+font-size: 20px;
 }
 
 .individual{
 padding:10px;
 display:flex;
-align-items: center;
-border: 2px solid black;
-background-color: antiquewhite;
+flex-direction: column;
+align-items: left;
 justify-content:left;
+}
+
+.icon{
+width: 98% !important;
+align-items: center;
 }
 
 .GuestBook{
   display:flex;
-  background-color: antiquewhite;
+  background-color: #e1f5fe;
 }
+
 .form{
   height: 80vh;
   display:grid;
   width: 50%;
   padding:10px;
-  background-color: rgb(255, 209, 149);
+  background-color:#b3e5fc;
   justify-content:left;
   align-items: left;
 }
 
 .book{
-  width:300px;
+  width:50%;
   height: 80vh;
   justify-content:center;
   align-items: center;
   overflow-y:auto;
 	position:relative;
 }
+
 .entry{
-  width:250px;
+  width:90%;
   border: 2px solid black;
   justify-content:center;
   
@@ -115,10 +119,12 @@ justify-content:left;
   padding:5px;
   grid-gap:1rem;
 }
+
 .forms{
   display:flex;
   flex-direction: row;
 }
+
 .titleSearch{
   padding-left: 15px;
 }

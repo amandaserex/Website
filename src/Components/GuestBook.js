@@ -108,9 +108,9 @@ export class GuestBook extends Component {
                             onChange={this.handleChange}
                             value={this.state.name}
                             type="text"
-                            placeholder="Name (6-19 characters)"
+                            placeholder="Name (3-19 characters)"
                             name="name"
-                            minLength="6"
+                            minLength="3"
                             maxLength="19"
                             required
                         ></input>
