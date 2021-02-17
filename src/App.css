@@ -36,8 +36,8 @@ h4:hover {
   background-color: #e1f5fe;
   flex: 1;
   padding: 10px;
-  width: 50%    !important;
-  height: auto   !important;
+  width: auto    !important;
+  height: 40vh   !important;
   align-items: center;
 }
 
@@ -50,12 +50,6 @@ img{
 .tab {
   display: inline-block;
   margin-left: 40px;
-}
-
-.homepic{
-  height: 20vh   !important;
-  width: auto    !important;
-  padding:5px;
 }
 
 .body-pic > div{
@@ -87,8 +81,13 @@ justify-content:left;
 }
 
 .icon{
-width: 98% !important;
+width: 70% !important;
 align-items: center;
+}
+
+.iconGeoPic{
+  height: 700px !important;
+  width: auto !important;
 }
 
 .GuestBook{

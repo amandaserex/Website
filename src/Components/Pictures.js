@@ -7,7 +7,7 @@ import snow from "./picsVideos/snow.jpeg"
 import sun from "./picsVideos/sun.jpeg"
 import sunset from "./picsVideos/sunset.jpeg"
 import IMG_5940 from "./picsVideos/IMG_5940.jpeg"
-import IMG_5673 from "./picsVideos/IMG_5673.jpeg"
+import IMG_7356 from "./picsVideos/IMG_7356.jpeg"
 import IMG_5727 from "./picsVideos/IMG_5727.jpeg"
 import IMG_5992 from "./picsVideos/IMG_5992.jpeg"
 import IMG_6060 from "./picsVideos/IMG_6060.jpeg"
@@ -50,7 +50,7 @@ function Pictures() {
       </SRLWrapper>
       </div><div>
       <SRLWrapper>
-      <a href={IMG_5673} data-attribute="SRL"><img src={IMG_5673} alt="" /></a>
+      <a href={IMG_7356} data-attribute="SRL"><img src={IMG_7356} alt="" /></a>
       </SRLWrapper>
       </div><div>
       <SRLWrapper>
