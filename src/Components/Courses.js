@@ -13,8 +13,12 @@ export class Courses extends Component {
                     ContainerClassName='ScrollUpButton__Container'
                     TransitionClassName='ScrollUpButton__Toggled'
                 />
-            <h2>Overall GPA: 3.62</h2>
-            <h2>Computer Science Courses - 3.74 GPA</h2>
+            <h2>Overall GPA: 3.61</h2>
+            <h3>Winter 2020</h3>
+            <h5>CMPSC 138 Automata and Formal Languages</h5>
+            <h5>CMPSC 154 Computer Architecture</h5>
+            <h5>CMPSC 165A Artificial Intelligence</h5>
+            <p></p>
             <h3>Fall 2020</h3>
             <h5>CMPSC 130B Data Structure Algorithm II</h5>
             <h5>CMPSC 184 Mobile App Development</h5>
