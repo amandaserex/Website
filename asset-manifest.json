@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Website/static/css/main.b9f17fe2.chunk.css",
+    "main.js": "/Website/static/js/main.1e988765.chunk.js",
+    "main.js.map": "/Website/static/js/main.1e988765.chunk.js.map",
+    "runtime-main.js": "/Website/static/js/runtime-main.e6e171c1.js",
+    "runtime-main.js.map": "/Website/static/js/runtime-main.e6e171c1.js.map",
+    "static/js/2.20dbbea4.chunk.js": "/Website/static/js/2.20dbbea4.chunk.js",
+    "static/js/2.20dbbea4.chunk.js.map": "/Website/static/js/2.20dbbea4.chunk.js.map",
+    "index.html": "/Website/index.html",
+    "precache-manifest.32570355624f95e1f3cc465d0dd991c6.js": "/Website/precache-manifest.32570355624f95e1f3cc465d0dd991c6.js",
+    "service-worker.js": "/Website/service-worker.js",
+    "static/css/main.b9f17fe2.chunk.css.map": "/Website/static/css/main.b9f17fe2.chunk.css.map",
+    "static/js/2.20dbbea4.chunk.js.LICENSE.txt": "/Website/static/js/2.20dbbea4.chunk.js.LICENSE.txt",
+    "static/media/GeoPics.jpg": "/Website/static/media/GeoPics.1758958a.jpg",
+    "static/media/Graphs.png": "/Website/static/media/Graphs.b155783f.png",
+    "static/media/IMG_5727.jpeg": "/Website/static/media/IMG_5727.1feecae4.jpeg",
+    "static/media/IMG_5940.jpeg": "/Website/static/media/IMG_5940.bb7a864d.jpeg",
+    "static/media/IMG_5992.jpeg": "/Website/static/media/IMG_5992.31780ae2.jpeg",
+    "static/media/IMG_6060.jpeg": "/Website/static/media/IMG_6060.26fc8d35.jpeg",
+    "static/media/IMG_6070.jpeg": "/Website/static/media/IMG_6070.b88d014b.jpeg",
+    "static/media/IMG_7356.jpeg": "/Website/static/media/IMG_7356.a6b00928.jpeg",
+    "static/media/IMG_7764.jpeg": "/Website/static/media/IMG_7764.e5d0fe17.jpeg",
+    "static/media/MealPlannerIcon.png": "/Website/static/media/MealPlannerIcon.1599b7b9.png",
+    "static/media/air.jpeg": "/Website/static/media/air.5fd2ca91.jpeg",
+    "static/media/blue.jpeg": "/Website/static/media/blue.544c3c59.jpeg",
+    "static/media/iv.jpeg": "/Website/static/media/iv.295fd827.jpeg",
+    "static/media/snow.jpeg": "/Website/static/media/snow.6a28df6c.jpeg",
+    "static/media/sun.jpeg": "/Website/static/media/sun.de3805d6.jpeg",
+    "static/media/sunset.jpeg": "/Website/static/media/sunset.de74b3b8.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e6e171c1.js",
+    "static/js/2.20dbbea4.chunk.js",
+    "static/css/main.b9f17fe2.chunk.css",
+    "static/js/main.1e988765.chunk.js"
+  ]
+}
