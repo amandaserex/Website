@@ -4,7 +4,7 @@ import ScrollUpButton from "react-scroll-up-button";
 export class Courses extends Component {
     render() {      
         return (
-            <div>
+            <div className = "CourseBody">
             <div>
                 <ScrollUpButton
                     StopPosition={0}
@@ -13,8 +13,14 @@ export class Courses extends Component {
                     ContainerClassName='ScrollUpButton__Container'
                     TransitionClassName='ScrollUpButton__Toggled'
                 />
-            <h2>Overall GPA: 3.61</h2>
-            <h3>Winter 2020</h3>
+            <h2>Overall GPA: 3.46</h2>
+            <h3>Spring 2021</h3>
+            <h5>CMPSC 170 Operating Systems</h5>
+            <h5>CMPSC 160 Translation of Programming Languages</h5>
+            <h5>CMPSC 178 Intro to Cryptography</h5>
+            <h5>CMPSC 176A Computer Communication Networks</h5>
+            <p></p>
+            <h3>Winter 2021</h3>
             <h5>CMPSC 138 Automata and Formal Languages</h5>
             <h5>CMPSC 154 Computer Architecture</h5>
             <h5>CMPSC 165A Artificial Intelligence</h5>

@@ -142,3 +142,7 @@ align-items: center;
 .body-movies > div:hover{
   opacity: 0.3;
 }
+
+.CourseBody{
+  padding-left:10px;
+}
